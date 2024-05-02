@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2d3b25fbda.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="trophy.html">Trophy</a>
+            <a href="cwc records.html">CWC Records</a>
+            <a href="awards.html">Awards</a>
+            <a href="contact.html" class="contact">Contact Us</a>
+        </div>
+    </header>
+    <main class="main">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="de1a4978-a178-48aa-9e7c-60e5b12b7b5b">
+            <div><label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Full Name"></div><br>
+            <div><label for="mail">Email Address</label>
+            <input type="mail" name="E-mail" id="mail" placeholder="abc@gmail.com"></div><br>
+            <div><label for="contact">Contact</label>
+            <input type="tel" name="contact" id="contact" placeholder="03XX-XXXXXXX"></div><br>
+            <div><label for="rate">Rate this Site</label>
+            <input type="range" name="rating" id="rate"></div><br>
+            <div><label for="msg">Message</label>
+            <input maxlength="100" row="5" columns="10" type="text" name="Message" id="msg" placeholder="Enter Comments"></div><br>
+            <input type="submit" value="SUBMIT" class="submit">
+        </form>
+    </main><hr>
+    <p class="ad">made with <i class="fa-regular fa-heart"></i> by Faraz Ahmed</p>
+    <footer>
+        <div class="footer">
+            <p>Contact Us for Web development</p>
+            <div><i class="fa-brands fa-whatsapp"></i> 03161303121</div>
+            <div><i class="fa-solid fa-envelope"></i> farazfatahsoomro@gmail.com</div>
+            <div><i class="fa-brands fa-facebook-f"></i> Faraz Ahmed</div>
+            <div><i class="fa-brands fa-instagram"></i> fahmed10_</div>
+        </div>
+    </footer>
+</body>
+</html>
